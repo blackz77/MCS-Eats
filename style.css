@@ -47,7 +47,7 @@ body{
     color: #333333;
 }
 
-.prato{
+.prato, .bebidas, .sobremesa{
     overflow-x: scroll;
     scrollbar-width: none;
     display: flex;
@@ -55,7 +55,7 @@ body{
 .prato::-webkit-scrollbar {
     display: none;
 }
-.alimentos{
+.alimentos, .alimentos2, .alimentos3, .alimentos4, .alimentos5, .alimentos6, .alimentos7 ,.bebida1, .bebida2, .bebida3, .bebida4, .bebida5, .bebida6, .bebida7, .sobre1, .sobre2,.sobre3,.sobre4,.sobre5,.sobre6,.sobre7{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -66,18 +66,25 @@ body{
     width: 172px;
     height: 216px;
 }
-.alimentos h2{
+
+.clicado, .clicadob, .clicados{
+    border: 3px green solid;
+    border-radius: 9px;
+}
+ h2{
     font-weight: 700;
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: black;
 }
-.alimentos p{
+.prato p, .bebidas p, .sobremesa p{
     font-weight: 300;
     font-size: 13.5px;
     line-height: 17.58px;
     color: #A6A6A6;
 }
+
 
 .alimentos img{
     width: 90%;
